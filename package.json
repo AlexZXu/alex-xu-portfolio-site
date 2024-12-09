@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@fontsource-variable/rubik": "^5.1.0",
     "astro": "^5.0.2"
   }
 }

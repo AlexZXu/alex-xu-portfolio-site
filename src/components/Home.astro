@@ -1,0 +1,450 @@
+---
+import background from '../assets/background.svg';
+import alexProfessionalPic from '../assets/alexxu_profile.jpeg'
+import smokeAppPic from '../assets/smoke-app-cover.png'
+import btpHubLogo from '../assets/BTPHub_Logo.svg'
+import fblaPic from '../assets/fbla-cover-photo.png'
+---
+
+<div id="container">
+	<img id="background" src={background.src} alt="" fetchpriority="high" />
+	<header class="header-container">
+		<div class="logo">
+			<div>
+				<span style="font-size: 26px; color: #f5fcf5">
+					<i class="fa-solid fa-code"></i>
+				</span>
+			</div>
+			<div class="logo-name">
+				Alexander Xu
+			</div>
+		</div>
+		<div class="nav-bar">
+			<a href="#" class="nav-link">Home</a>
+			<a href="#portfolio" class="nav-link">Project Portfolio</a>
+			<a href="#" class="nav-link">About Me</a>
+		</div>
+	</header>
+	
+	<main>
+		<div class="hero">
+			<div class="hero-side-1">
+				<div class="big-text">
+					<span style="color: #ca36ff">Hi</span>, my name is Alexander Xu
+				</div>
+				<div class="basic-description">
+					I am a junior at Johns Creek High School in Johns Creek, GA., a lover of math and STEM, an avid reader and writer, and a growing entrepreneur. 
+				</div>
+			</div>
+			<div class="hero-side-2">
+				<img src={alexProfessionalPic.src} alt="" class="prof-pic" />
+			</div>
+		</div>
+		<div class="my-interests">
+			<div class="interest-title">
+				My Interests
+			</div>
+			<div class="interests-container">
+				<div class="interest">
+					<span class="interest-icon">
+						Mathematics
+					</span>
+				</div>
+				<div class="interest">
+					<span class="interest-icon">
+						Public Speaking
+					</span>
+				</div>
+				<div class="interest">
+					<span class="interest-icon">
+						Computer Science
+					</span>
+				</div>
+				<div class="interest">
+					<span class="interest-icon">
+						Creative Writing
+					</span>
+				</div>
+				<div class="interest">
+					<span class="interest-icon">
+						Climate Advocacy
+					</span>
+				</div>
+				<div class="interest">
+					<span class="interest-icon">
+						Student Research
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="portfolio" id="portfolio">
+			<div class="portfolio-title">
+				<div>
+					My Project Portfolio
+				</div>
+				<div class="fancy-underline">
+				</div>
+			</div>
+			
+			<div class="project-portfolio-container">
+
+				<div class="portfolio-project">
+					<div class="project-text">
+						<div class="project-title">
+							Smoke Aware: A Wildfire & Smoke Data App 
+						</div>
+						<div class="project-subtitle">
+							<span style="color: red">
+								<i class="fa-brands fa-youtube"></i>
+							</span>
+							Please watch the <b>demo video</b> (Congressional App Challenge GA-07 2nd Place Winner): 
+							<a href="https://youtu.be/-WQ2pu42kxY" target="_blank"><b>Video</b></a>. 
+						</div>
+						<div class="project-subtitle">
+							<span>
+								<i class="fa-brands fa-github"></i>
+							</span>
+							Github: 
+							<a href="https://github.com/AlexZXu/smoke-aware-congress-app" target="_blank"><b>Repo</b></a>
+						</div>
+						
+						<div class="project-paragraph" style="margin-top: 15px">
+							During my research with Emory Rollins School of Public Health on wildfire smoke, I saw how there were often challenges in accessing high quality data from sources like the government. 
+							This data is critical for research analysis and creating prediction models. 
+							I have always been concerned about climate change, and I am currently pushing a resolution for Fulton County Schools to reduce their climate impact through electrification and awareness. 
+							This inspired me to create Smoke Aware.
+						</div>
+						<div class="project-paragraph">
+							Key Features:
+							<ul>
+								<li>
+									Data Visualization: Offers clear, user-friendly displays of real-time and historical smoke data, enabling users to explore trends with toggles, tooltips, and interactive graphs.
+								</li>
+								<li>
+									Localized Forecasts: Allows users to input their zip code for personalized air quality insights and detailed hourly predictions.
+								</li>
+								<li>
+									Custom Data Retrieval: Provides customizable tools to fetch, preview, and download datasets, supporting researchers with detailed analysis needs.
+								</li>
+								<li>
+									AI-Powered Insights: Includes a custom AI model for answering wildfire and climate-related queries, enhancing efficiency for researchers and raising public awareness.
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="project-image">
+						<img src={smokeAppPic.src} alt="" class="project-pic" />
+					</div>
+				</div>
+
+				<div class="portfolio-project">
+					<div class="project-text">
+						<div class="project-title">
+							BTPHub: A Startup and App
+						</div>
+						<div class="project-subtitle">
+							<span>
+								<i class="fa-brands fa-figma"></i>
+							</span>
+							Pilot coming soon, see our app designs: 
+							<a href="https://www.figma.com/design/31a6menUijKP9jhCsJEpi7/BTPHub-Master-Design-File?node-id=0-1&t=85VG4nGdyKUoNP1J-1" target="_blank"><b>Design File</b></a>
+						</div>
+						
+						<div class="project-paragraph" style="margin-top: 15px">
+							BTPHub is a tech startup focused on connecting families with trusted childcare and senior care providers within their local communities. 
+							Our application makes it easy to find and schedule care, fostering stronger neighborhood connections.
+							The app enables providers, such as babysitters and petsitters, to share their availability and accept service requests, while customers can easily find trusted providers nearby and manage all their bookings. 
+							The app’s neighborhood-centered design ensures a trusted, community-based experience for all users.
+						</div>
+						<div class="project-paragraph">
+							As the technical lead, our team uses tools like SQL databases, APIs, and JavaScript frameworks (e.g., Vue) to create a smooth and reliable user experience. 
+							BTPHub aims to make care more accessible and convenient for everyone.
+						</div>
+					</div>
+					<div class="project-image" >
+						<img src={btpHubLogo.src} alt="" class="project-pic" style="background: white" />
+					</div>
+				</div>
+
+				<div class="portfolio-project">
+					<div class="project-text">
+						<div class="project-title">
+							BNT and BNT Foundation Website
+						</div>
+						<div class="project-subtitle">
+							<span>
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</span>
+							
+						</div>
+						<div class="project-subtitle">
+							<span>
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</span>
+							Visit demo smoothie shop website submitted for FBLA (2022 Regional 3rd Place in Web Design): 
+							<a href="https://alex-fbla-app.vercel.app/" target="_blank"><b>Website</b></a>
+						</div>
+						
+						<div class="project-paragraph" style="margin-top: 15px">
+							BTPHub is a tech startup focused on connecting families with trusted childcare and senior care providers within their local communities. 
+							Our application makes it easy to find and schedule care, fostering stronger neighborhood connections.
+							The app enables providers, such as babysitters and petsitters, to share their availability and accept service requests, while customers can easily find trusted providers nearby and manage all their bookings. 
+							The app’s neighborhood-centered design ensures a trusted, community-based experience for all users.
+						</div>
+						<div class="project-paragraph">
+							As the technical lead, our team uses tools like SQL databases, APIs, and JavaScript frameworks (e.g., Vue) to create a smooth and reliable user experience. 
+							BTPHub aims to make care more accessible and convenient for everyone.
+						</div>
+					</div>
+					<div class="project-image" >
+						<img src={fblaPic.src} alt="" class="project-pic" style="background: white" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+</div>
+
+<style>
+	* {
+		box-sizing: border-box;
+	}
+	#background {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		z-index: -1;
+		filter: blur(100px);
+	}
+
+	#container {
+		font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+		height: 100%;
+		width: 100%;
+	}
+
+	main {
+		padding-top: 70px;
+		height: fit-content;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;		
+	}
+
+	.header-container {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		max-width: 100vw;
+		align-items: center;
+		height: 70px;
+		background: rgb(38, 38, 38);
+		display: flex;
+	}
+
+	.logo {
+		position: absolute;
+		display: flex;
+		left: 25px;
+		gap: 16px;
+		align-items: center;
+		color: #f5fcf5;
+		font-weight: 500;
+		font-size: 22px;
+		font-family: 'Rubik', sans-serif;
+		letter-spacing: 0.01cm;
+		font-stretch: expanded;
+	}
+
+	.nav-bar {
+		color: white;
+		display: flex;
+		margin: auto;
+		border: solid 1px white;
+		border-radius: 1000px;
+		padding: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background: rgb(38, 38, 38);
+		gap: 30px;
+	}
+
+	.nav-link {
+		color: #fdfdfd;
+		text-decoration: none;
+		font-weight: 600;
+		transition: color 0.2s;
+	}
+	
+	.nav-link:hover {
+		color: #ffe0f9;
+	}
+
+	.hero {
+		margin-top: 25px;
+		margin-bottom: 40px;
+		max-width: 1320px;
+		height: 550px;
+		width: 85%;
+		display: flex;
+		gap: 35px;
+		align-items: center;
+	}
+
+	.hero-side-1 {
+		flex: 1;
+	}
+	.big-text {
+		font-family: 'Rubik', sans-serif;
+		font-size: 64px;
+		font-weight: 500;
+		color: rgb(38, 38, 38);
+		text-shadow: 0px 0px 15px #f1cbf1;
+	}
+
+	.basic-description {
+		font-family: 'Rubik', sans-serif;
+		margin-top: 20px;
+		color: rgb(71, 68, 68);
+		line-height: 30px;
+		font-size: 22px;
+		font-weight: 4500;
+		width: 90%;
+	}
+
+	.hero-side-2 {
+		width: 40%;
+		height: 100%;
+	}
+
+	.prof-pic {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 60px;
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	}
+
+	.my-interests {
+		border-top: 2px solid rgb(96, 96, 96);
+		border-bottom: 2px solid rgb(96, 96, 96);
+		padding-top: 25px;
+		padding-bottom: 25px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	.interest-title {
+		font-size: 24px;
+		font-weight: 600;
+		font-family: 'Inter';
+		margin-bottom: 12px;
+	}
+
+	.fancy-underline {
+		background: rgb(216,109,195);
+		background: linear-gradient(90deg, rgba(216,109,195,1) 0%, rgba(255,112,112,1) 100%);
+		height: 5px;
+		width: 100%;
+	}
+
+	.interests-container {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 12px;
+		justify-content: center;
+		width: 80%;
+	}
+	
+	.interest {
+		border: solid;
+		padding: 5px;
+		padding-left: 15px;
+		padding-right: 15px;
+		border-radius: 20px;
+	}
+
+	.portfolio {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		gap: 30px;
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+
+	.portfolio-title {
+		font-weight: 600;
+		font-size: 42px;
+	}
+
+	.project-portfolio-container {
+		max-width: 1320px;
+		width: 85%;
+		gap: 30px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.portfolio-project {
+		display: flex;
+		height: 400px;
+		width: 100%;
+		background: rgba(255, 255, 255, 0.744);
+		padding: 25px;
+		border-radius: 16px;
+		gap: 15px;
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		border: 1px solid rgba(255, 255, 255, 0.3);
+	}
+
+	.project-text {
+		width: 60%;
+		border: rgb(183, 178, 178) 1px solid;
+		border-radius: 10px;
+		padding: 16px;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		overflow-y: auto;
+	}
+
+	.project-title {
+		font-size: 34px;
+		font-weight: 600;
+		padding-bottom: 7px;
+		border-bottom: 1px solid rgb(116, 113, 113);
+	}
+	
+	.project-subtitle {
+		font-size: 20px;
+		color: black;
+	}
+
+	.project-paragraph {
+		font-weight: 300;
+		font-size: 16px;
+	}
+
+	.project-image {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		width: 40%;
+	}
+
+	.project-pic {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+		border-radius: 20px;
+		box-shadow: rgba(100, 100, 111, 0.104) 0px 2px 15px 0px;
+	}
+</style>
