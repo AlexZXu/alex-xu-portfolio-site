@@ -3,7 +3,8 @@ import background from '../assets/background.svg';
 import alexProfessionalPic from '../assets/alexxu_profile.jpeg'
 import smokeAppPic from '../assets/smoke-app-cover.png'
 import btpHubLogo from '../assets/BTPHub_Logo.svg'
-import fblaPic from '../assets/fbla-cover-photo.png'
+import bntPic from '../assets/bnt-website-cover.png'
+import researchPic from '../assets/math-research-cover.png'
 ---
 
 <div id="container">
@@ -19,11 +20,30 @@ import fblaPic from '../assets/fbla-cover-photo.png'
 				Alexander Xu
 			</div>
 		</div>
-		<div class="nav-bar">
+		<div class="nav-bar-long">
 			<a href="#" class="nav-link">Home</a>
 			<a href="#portfolio" class="nav-link">Project Portfolio</a>
 			<a href="#" class="nav-link">About Me</a>
 		</div>
+		<span style="color: white" id="menuButton">
+			<i class="fa-solid fa-bars fa-xl"></i>
+		</span>
+
+		<div class="nav-bar-short hidden" id="menuContainer">
+			<a href="#" class="nav-link">Home</a>
+			<a href="#portfolio" class="nav-link">Project Portfolio</a>
+			<a href="#" class="nav-link">About Me</a>
+		</div>
+
+		<script is:inline>
+			const menuButton = document.getElementById('menuButton');
+			const menuContainer = document.getElementById('menuContainer');
+			const it = 0
+			menuButton?.addEventListener("click", () => {
+				menuContainer.classList.toggle("hidden")
+				menuContainer.classList.toggle("flex")
+			})
+		</script>
 	</header>
 	
 	<main>
@@ -170,35 +190,59 @@ import fblaPic from '../assets/fbla-cover-photo.png'
 				<div class="portfolio-project">
 					<div class="project-text">
 						<div class="project-title">
-							BNT and BNT Foundation Website
+							BNT & BNT Foundation Website
 						</div>
 						<div class="project-subtitle">
 							<span>
 								<i class="fa-solid fa-magnifying-glass"></i>
 							</span>
-							
-						</div>
-						<div class="project-subtitle">
-							<span>
-								<i class="fa-solid fa-magnifying-glass"></i>
-							</span>
-							Visit demo smoothie shop website submitted for FBLA (2022 Regional 3rd Place in Web Design): 
-							<a href="https://alex-fbla-app.vercel.app/" target="_blank"><b>Website</b></a>
+							BNT Foundation Website:
+							<a href="https://www.bntllc.co/foundation" target="_blank">Website</a>
 						</div>
 						
+						
 						<div class="project-paragraph" style="margin-top: 15px">
-							BTPHub is a tech startup focused on connecting families with trusted childcare and senior care providers within their local communities. 
-							Our application makes it easy to find and schedule care, fostering stronger neighborhood connections.
-							The app enables providers, such as babysitters and petsitters, to share their availability and accept service requests, while customers can easily find trusted providers nearby and manage all their bookings. 
-							The app’s neighborhood-centered design ensures a trusted, community-based experience for all users.
+							BNT Foundation is the non-profit I co-founded. We are a team with over 20 volunteers dedicated to supporting communities in need. 
+							Some of our initiatives include partnering with the Harvard China Fund and Jianghao to donate specialized bras to breast cancer patients, and helping sponsor and organize community events like Johns Creek's New Years Gala.
 						</div>
 						<div class="project-paragraph">
-							As the technical lead, our team uses tools like SQL databases, APIs, and JavaScript frameworks (e.g., Vue) to create a smooth and reliable user experience. 
-							BTPHub aims to make care more accessible and convenient for everyone.
+							I built the BNT website from scratch using React.js. Through the process of creating this website, I learned the importance of making clear and easy-to-use designs. 
+							The website incorporates interactive features like 3D hero sections that users can move around, where I had to learn basic 3D modeling and WebGL with Spline, and parallax effects.
+							The website itself includes detailed information about what we've done at BNT Foundation.
 						</div>
 					</div>
 					<div class="project-image" >
-						<img src={fblaPic.src} alt="" class="project-pic" style="background: white" />
+						<img src={bntPic.src} alt="" class="project-pic" style="background: white" />
+					</div>
+				</div>
+
+				<div class="portfolio-project">
+					<div class="project-text">
+						<div class="project-title">
+							Voronoi Diagram Research Project
+						</div>
+						<div class="project-subtitle">
+							<span>
+								<i class="fa-brands fa-github"></i>
+							</span>
+							Research Repository:
+							<a href="https://www.bntllc.co/foundation" target="_blank">Github</a>
+						</div>
+						
+						
+						<div class="project-paragraph" style="margin-top: 15px">
+							I am currently working on a research project focusing on the application of Voronoi diagrams on public health system optimization. 
+							Besides creating models to assess a system, I am looking at possible algorithms to help solve this problem. 
+							In order to test algorithms and create Voronoi diagrams which are central to my research, I've written several Python scripts using MatPlotLib, SciPy, and NumPy. 
+						</div>
+						<div class="project-paragraph">
+							In my research project, I tested hypotheses on real data from Atlanta, which are saved as CSVs in the repository. 
+							In order to run the programs and observe results, simply have the necessary packages installed and, in the command line, run one of the .py files.
+							In my project, I have also individually been writing a research paper, the LaTeX source code for which is also in the repo.
+						</div>
+					</div>
+					<div class="project-image" >
+						<img src={researchPic.src} alt="" class="project-pic" style="background: white" />
 					</div>
 				</div>
 			</div>
@@ -260,7 +304,15 @@ import fblaPic from '../assets/fbla-cover-photo.png'
 		font-stretch: expanded;
 	}
 
-	.nav-bar {
+	.hidden { 
+		display: none;
+	}
+
+	.flex {
+		display: flex;
+	}
+
+	.nav-bar-long {
 		color: white;
 		display: flex;
 		margin: auto;
@@ -271,6 +323,18 @@ import fblaPic from '../assets/fbla-cover-photo.png'
 		padding-right: 20px;
 		background: rgb(38, 38, 38);
 		gap: 30px;
+	}
+
+	.nav-bar-short {
+		flex-direction: column;
+		position: absolute;
+		right: 20px;
+		top: 60px;
+		background: rgb(59, 59, 59);
+		padding: 15px;
+		font-size: 18px;
+		gap: 10px;
+		border-radius: 20px;
 	}
 
 	.nav-link {
@@ -314,6 +378,13 @@ import fblaPic from '../assets/fbla-cover-photo.png'
 		font-size: 22px;
 		font-weight: 4500;
 		width: 90%;
+	}
+
+	#menuButton {
+		cursor: pointer;
+		position: absolute;
+		right: 25px;
+		display: none;
 	}
 
 	.hero-side-2 {
@@ -446,5 +517,45 @@ import fblaPic from '../assets/fbla-cover-photo.png'
 		height: 100%;
 		border-radius: 20px;
 		box-shadow: rgba(100, 100, 111, 0.104) 0px 2px 15px 0px;
+	}
+
+	@media screen and (max-width: 900px) {
+		.portfolio-project {
+			flex-direction: column-reverse;
+			height: 550px;
+		}
+		.project-image {
+			width: 100%;
+			height: 180px;
+		}
+		.project-text {
+			width: 100%;
+		}
+		#menuButton {
+			display: inline-block;
+		}
+		.nav-bar-long {
+			display: none;
+		}
+		.hero {
+			flex-direction: column-reverse;
+			height: 600px;
+			margin-top: 30px;
+
+		}
+		.hero-side-2 {
+			width: 60%;
+			height: 300px;
+		}
+	}
+
+	@media screen and (max-width: 700px) {
+		.big-text{
+			font-size: 50px;
+		}
+		.basic-description {
+			line-height: 26px;
+			font-size: 18px;
+		}
 	}
 </style>
