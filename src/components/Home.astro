@@ -1,6 +1,7 @@
 ---
 import background from '../assets/background.svg';
 import alexProfessionalPic from '../assets/alexxu_profile.jpeg'
+import alexMitPic from '../assets/alexxu-mit-profile.jpg'
 import smokeAppPic from '../assets/smoke-app-cover.png'
 import btpHubLogo from '../assets/BTPHub_Logo.svg'
 import bntPic from '../assets/bnt-website-cover.png'
@@ -23,7 +24,7 @@ import researchPic from '../assets/math-research-cover.png'
 		<div class="nav-bar-long">
 			<a href="#" class="nav-link">Home</a>
 			<a href="#portfolio" class="nav-link">Project Portfolio</a>
-			<a href="#" class="nav-link">About Me</a>
+			<a href="#about" class="nav-link">About Me</a>
 		</div>
 		<span style="color: white" id="menuButton">
 			<i class="fa-solid fa-bars fa-xl"></i>
@@ -32,7 +33,7 @@ import researchPic from '../assets/math-research-cover.png'
 		<div class="nav-bar-short hidden" id="menuContainer">
 			<a href="#" class="nav-link">Home</a>
 			<a href="#portfolio" class="nav-link">Project Portfolio</a>
-			<a href="#" class="nav-link">About Me</a>
+			<a href="#about" class="nav-link">About Me</a>
 		</div>
 
 		<script is:inline>
@@ -53,7 +54,7 @@ import researchPic from '../assets/math-research-cover.png'
 					<span style="color: #ca36ff">Hi</span>, my name is Alexander Xu
 				</div>
 				<div class="basic-description">
-					I am a junior at Johns Creek High School in Johns Creek, GA., a lover of math and STEM, an avid reader and writer, and a growing entrepreneur. 
+					I am a junior at Johns Creek High School in Johns Creek, GA., a lover of math and STEM, an avid reader and writer, and an aspiring entrepreneur. 
 				</div>
 			</div>
 			<div class="hero-side-2">
@@ -228,6 +229,13 @@ import researchPic from '../assets/math-research-cover.png'
 							Research Repository:
 							<a href="https://github.com/AlexZXu/voronoi-health-research" target="_blank"><b>Github</b></a>
 						</div>
+						<div class="project-subtitle">
+							<span>
+								<i class="fa-solid fa-book"></i>
+							</span>
+							Read the current version of my paper:
+							<a href="https://drive.google.com/file/d/1U-StrYrYklnhp90GwlJ5uHOJFBSKz6-3/view?usp=drive_link" target="_blank"><b>Paper</b></a>
+						</div>
 						
 						
 						<div class="project-paragraph" style="margin-top: 15px">
@@ -245,6 +253,46 @@ import researchPic from '../assets/math-research-cover.png'
 						<img src={researchPic.src} alt="" class="project-pic" style="background: white" />
 					</div>
 				</div>
+			</div>
+		</div>
+
+		<div class="about" id="about">
+			<div class="about-container">
+				<div class="about-side-1">
+					<img src={alexMitPic.src} alt="" class="about-pic" />
+				</div>
+				<div class="about-side-2">
+					<div class="about-title">
+						<div>
+							About Me
+						</div>
+						<div class="fancy-underline">
+						</div>
+					</div>
+
+					<div class="about-paragraph">
+						Hi, I’m Alexander Xu! I'm a junior at Johns Creek High School with a passion for STEM, innovation, and leadership. 
+						I’m someone who loves diving into math, computer science, or combining the two through entrepreneurship and research, using my skills to tackle real-world challenges.
+					</div>
+					<div class="about-paragraph">
+						Over the years, I’ve worked on two research projects that focus on benefiting the public and addressing societal issues, experiences that have shaped my love for problem-solving. 
+						As the co-founder of a tech startup, BTPHub, I’ve learned how to use technology to bring communities closer together.
+						Through my nonprofit, the BNT Foundation, I’ve focused on helping breast cancer patients regain their confidence by providing essential resources. I’m also deeply committed to environmental advocacy, contributing to the fight against climate change by co-authoring a county-wide environmental resolution and initiative.
+					</div>
+					<div class="about-paragraph">
+						In my free time, I like to draw, read, write, and play pickleball. I'm hopeful to be a part of a more green, more connected, and brighter future through research and leadership in the community. 
+						<b>Contact me at: <a href="mailto: xualex008@gmail.com">xualex008@gmail.com</a></b>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="footer-item">
+				Alexander Xu
+			</div>
+			<div class="footer-item">
+				<a href="mailto: xualex008@gmail.com">Contact</a>
 			</div>
 		</div>
 	</main>
@@ -519,6 +567,95 @@ import researchPic from '../assets/math-research-cover.png'
 		box-shadow: rgba(100, 100, 111, 0.104) 0px 2px 15px 0px;
 	}
 
+	.about {
+		border-top: 2px solid rgb(96, 96, 96);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		gap: 30px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.about-title {
+		font-weight: 500;
+		font-size: 48px;
+		width: 100%;
+		font-family: 'Rubik', sans-serif;
+		margin-bottom: 24px;
+	}
+
+	.about-paragraph {
+		color: rgb(24, 24, 24);
+		font-size: 18px;
+		margin-bottom: 19.2px;
+	}
+
+	.about-container {
+		max-width: 1320px;
+		height: 600px;
+		width: 85%;
+		display: flex;
+		align-items: center;
+		gap: 35px;
+	}
+
+	.about-pic {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 60px;
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	}
+
+	.about-side-1 {
+		width: 40%;
+		height: 100%;
+	}
+
+	.about-side-2 {
+		flex: 1;
+		padding: 15px;
+	}
+
+	.footer {
+		margin-top: 45px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		font-weight: 600;
+		padding: 30px;
+		font-size: 20px;
+		background: rgb(38, 38, 38);
+		color: white;
+		justify-content: space-between;
+		font-family: 'Inter';
+	}
+
+	.footer-item a {
+		color: white;
+		font-family: "Inter";
+		color: rgb(197, 193, 255);
+		font-weight: 600;
+	}
+
+	@media screen and (max-width: 1050px) {
+		.about-container {
+			gap: 15px;
+			flex-direction: column;
+			height: fit-content;
+			margin-top: 25px;
+		}
+		.about-side-1 {
+			width: 70%;
+		}
+		.about-pic {
+			height: 300px;
+			width: 100%;
+		}
+	}
+
 	@media screen and (max-width: 900px) {
 		.portfolio-project {
 			flex-direction: column-reverse;
@@ -556,6 +693,12 @@ import researchPic from '../assets/math-research-cover.png'
 		.basic-description {
 			line-height: 26px;
 			font-size: 18px;
+		}
+		
+		.about-paragraph {
+			color: rgb(24, 24, 24);
+			font-size: 16px;
+			margin-bottom: 19.2px;
 		}
 	}
 </style>
