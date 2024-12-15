@@ -23,8 +23,8 @@ import researchPic from '../assets/math-research-cover.png'
 		</div>
 		<div class="nav-bar-long">
 			<a href="#" class="nav-link">Home</a>
-			<a href="#portfolio" class="nav-link">Project Portfolio</a>
 			<a href="#about" class="nav-link">About Me</a>
+			<a href="#portfolio" class="nav-link">Project Portfolio</a>
 		</div>
 		<span style="color: white" id="menuButton">
 			<i class="fa-solid fa-bars fa-xl"></i>
@@ -32,8 +32,8 @@ import researchPic from '../assets/math-research-cover.png'
 
 		<div class="nav-bar-short hidden" id="menuContainer">
 			<a href="#" class="nav-link">Home</a>
-			<a href="#portfolio" class="nav-link">Project Portfolio</a>
 			<a href="#about" class="nav-link">About Me</a>
+			<a href="#portfolio" class="nav-link">Project Portfolio</a>
 		</div>
 
 		<script is:inline>
@@ -95,6 +95,38 @@ import researchPic from '../assets/math-research-cover.png'
 					<span class="interest-icon">
 						Student Research
 					</span>
+				</div>
+			</div>
+		</div>
+
+		
+		<div class="about" id="about">
+			<div class="about-container">
+				<div class="about-side-1">
+					<img src={alexMitPic.src} alt="" class="about-pic" />
+				</div>
+				<div class="about-side-2">
+					<div class="about-title">
+						<div>
+							About Me
+						</div>
+						<div class="fancy-underline">
+						</div>
+					</div>
+
+					<div class="about-paragraph">
+						Hi, I’m Alexander Xu! I'm a junior at Johns Creek High School with a passion for STEM, innovation, and leadership. 
+						I love diving into math, computer science, or combining the two through entrepreneurship and research, using my skills to tackle real-world challenges.
+					</div>
+					<div class="about-paragraph">
+						Over the years, I’ve worked on two research projects that focus on benefiting the public and addressing societal issues, experiences that have shaped my love for problem-solving. 
+						As the co-founder of a tech startup, BTPHub, I’ve learned how to use technology to bring communities closer together.
+						Through my nonprofit, the BNT Foundation, I’ve focused on helping breast cancer patients regain their confidence by providing essential resources. I’m also deeply committed to environmental advocacy, contributing to the fight against climate change by co-authoring a county-wide environmental resolution and initiative.
+					</div>
+					<div class="about-paragraph">
+						In my free time, I like to draw, read, write, and play tennis. I'm hopeful to be a part of a more green, more connected, and brighter future through research and leadership in the community. 
+						<b>Contact me at: <a href="mailto: xualex008@gmail.com">xualex008@gmail.com</a></b>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -256,36 +288,6 @@ import researchPic from '../assets/math-research-cover.png'
 			</div>
 		</div>
 
-		<div class="about" id="about">
-			<div class="about-container">
-				<div class="about-side-1">
-					<img src={alexMitPic.src} alt="" class="about-pic" />
-				</div>
-				<div class="about-side-2">
-					<div class="about-title">
-						<div>
-							About Me
-						</div>
-						<div class="fancy-underline">
-						</div>
-					</div>
-
-					<div class="about-paragraph">
-						Hi, I’m Alexander Xu! I'm a junior at Johns Creek High School with a passion for STEM, innovation, and leadership. 
-						I’m someone who loves diving into math, computer science, or combining the two through entrepreneurship and research, using my skills to tackle real-world challenges.
-					</div>
-					<div class="about-paragraph">
-						Over the years, I’ve worked on two research projects that focus on benefiting the public and addressing societal issues, experiences that have shaped my love for problem-solving. 
-						As the co-founder of a tech startup, BTPHub, I’ve learned how to use technology to bring communities closer together.
-						Through my nonprofit, the BNT Foundation, I’ve focused on helping breast cancer patients regain their confidence by providing essential resources. I’m also deeply committed to environmental advocacy, contributing to the fight against climate change by co-authoring a county-wide environmental resolution and initiative.
-					</div>
-					<div class="about-paragraph">
-						In my free time, I like to draw, read, write, and play pickleball. I'm hopeful to be a part of a more green, more connected, and brighter future through research and leadership in the community. 
-						<b>Contact me at: <a href="mailto: xualex008@gmail.com">xualex008@gmail.com</a></b>
-					</div>
-				</div>
-			</div>
-		</div>
 
 		<div class="footer">
 			<div class="footer-item">
@@ -568,7 +570,7 @@ import researchPic from '../assets/math-research-cover.png'
 	}
 
 	.about {
-		border-top: 2px solid rgb(96, 96, 96);
+		border-bottom: 2px solid rgb(96, 96, 96);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
