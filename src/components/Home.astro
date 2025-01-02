@@ -255,7 +255,7 @@ import researchPic from '../assets/math-research-cover.png'
 					</div>
 				</div>
 
-				<div class="portfolio-project">
+				<div class="portfolio-project btphub-size">
 					<div class="project-text">
 						<div class="project-title">
 							BTPHub: A Startup and App for Neighborhoods
@@ -573,6 +573,10 @@ import researchPic from '../assets/math-research-cover.png'
 		border: 1px solid rgba(255, 255, 255, 0.3);
 	}
 
+	.btphub-size {
+		height: 460px;
+	}
+
 	.project-text {
 		width: 60%;
 		border: rgb(183, 178, 178) 1px solid;
@@ -717,6 +721,9 @@ import researchPic from '../assets/math-research-cover.png'
 	@media screen and (max-width: 900px) {
 		.portfolio-project {
 			flex-direction: column-reverse;
+			height: 600px;
+		}
+		.btphub-size {
 			height: 550px;
 		}
 		.project-image {
