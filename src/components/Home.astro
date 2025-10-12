@@ -7,6 +7,12 @@ import btpHubLogo from '../assets/BTPHub_Logo.svg'
 import btpHubPic from '../assets/btphub-cover-photo.png'
 import bntPic from '../assets/bnt-website-cover.png'
 import researchPic from '../assets/math-research-cover.png'
+
+let showCreative = true
+
+function hidecreative(){
+	showCreative = false
+}
 ---
 
 <div id="container">
@@ -26,6 +32,7 @@ import researchPic from '../assets/math-research-cover.png'
 			<a href="#" class="nav-link">Home</a>
 			<a href="#about" class="nav-link">About Me</a>
 			<a href="#portfolio" class="nav-link">Project Portfolio</a>
+			<!-- <a href="#writing" class="nav-link">Creative Portfolio</a> -->
 		</div>
 		<span style="color: white" id="menuButton">
 			<i class="fa-solid fa-bars fa-xl"></i>
@@ -55,7 +62,37 @@ import researchPic from '../assets/math-research-cover.png'
 					<span style="color: #ca36ff">Hi</span>, my name is Alexander Xu
 				</div>
 				<div class="basic-description">
-					I am a junior at Johns Creek High School in Johns Creek, Georgia, a lover of math and STEM, an avid reader and writer, and an aspiring entrepreneur. 
+					I am a senior at Johns Creek High School in Johns Creek, Georgia, a lover of math and STEM, an avid reader and writer, and an aspiring entrepreneur. 
+				</div>
+				<div class="cs-title">
+					My 5 C's
+				</div>
+				<div class="cs-container">
+					<div class="interest">
+						<span class="interest-icon">
+							Curiosity
+						</span>
+					</div>
+					<div class="interest">
+						<span class="interest-icon">
+							Connection
+						</span>
+					</div>
+					<div class="interest">
+						<span class="interest-icon">
+							Community
+						</span>
+					</div>
+					<div class="interest">
+						<span class="interest-icon">
+							Creativity
+						</span>
+					</div>
+					<div class="interest">
+						<span class="interest-icon">
+							Challenge
+						</span>
+					</div>
 				</div>
 			</div>
 			<div class="hero-side-2">
@@ -100,7 +137,6 @@ import researchPic from '../assets/math-research-cover.png'
 			</div>
 		</div>
 
-		
 		<div class="about" id="about">
 			<div class="about-container">
 				<div class="about-side-1">
@@ -116,19 +152,17 @@ import researchPic from '../assets/math-research-cover.png'
 					</div>
 
 					<div class="about-paragraph">
-						Hi, I’m Alexander Xu! I'm a junior at Johns Creek High School with a passion for STEM, innovation, and leadership. 
-						I love diving into math 
-						<b><span style="color: rgb(190, 12, 48);">
+						Hi, I’m Alexander Xu! I'm a senior at Johns Creek High School with a passion for STEM, innovation, and leadership. 
+						I love diving into math, computer science, or combining the two through entrepreneurship and research, using my skills to tackle real-world challenges.
+						<!-- <b><span style="color: rgb(190, 12, 48);">
 						(check out a news interview following my USAJMO qualification, where I talked about my passion for math:
-						<a href="https://www.neighborhoodtv.com/vod/junior-math-olympiad-qualifier-alex-xu-04-18-2024-atlanta.html?utm_source=facebook&utm_medium=social&utm_content=ap_pl9xottrrb" target="_blank">News Story</a>)</span></b>, computer science, or combining the two through entrepreneurship and research, using my skills to tackle real-world challenges.
+						<a href="https://www.neighborhoodtv.com/vod/junior-math-olympiad-qualifier-alex-xu-04-18-2024-atlanta.html?utm_source=facebook&utm_medium=social&utm_content=ap_pl9xottrrb" target="_blank">News Story</a>)</span></b> -->
 					</div>
 					<div class="about-paragraph">
 						Over the years, I’ve worked on two research projects that focus on benefiting the public and addressing societal issues, experiences that have shaped my love for problem-solving. 
 						Meanwhile, as the co-founder of a tech startup, BTPHub, I’ve learned how to use technology to bring communities closer together.
 						Through my nonprofit, the BNT Foundation, I’ve focused on helping breast cancer patients regain their confidence by providing essential resources. 
-						Lastly, I’m deeply committed to environmental advocacy, contributing to the fight against climate change by co-authoring a county-wide environmental resolution and initiative <b><span style="color: rgb(190, 12, 48);">
-							(Read our resolution here: 
-							<a href="https://drive.google.com/file/d/1h-MjvTI7WM6H2R0jPfxKT-Ee5qlYPP5H/view?usp=sharing" target="_blank">Resolution</a>. From our efforts, Superintendent Dr. Looney recently created an Environmental Task Force!)</span></b>.
+						Lastly, I’m deeply committed to environmental advocacy, contributing to the fight against climate change by co-authoring a county-wide environmental resolution and initiative.
 					</div>
 					<div class="about-paragraph">
 						In my free time, I like to draw, read, write, and play tennis. 
@@ -139,6 +173,7 @@ import researchPic from '../assets/math-research-cover.png'
 			</div>
 		</div>
 
+		
 		<div class="portfolio" id="portfolio">
 			<div class="portfolio-title">
 				<div>
@@ -281,8 +316,8 @@ import researchPic from '../assets/math-research-cover.png'
 						<div class="project-paragraph" style="color: rgb(0, 0, 0)">
 							<div style="color: rgb(77, 7, 7)"><u><b>Development Highlights: </b></u></div>
 							<ul class="highlight-list">
-								<li><b style="color: rgb(117, 24, 24)"><i class="fa-solid fa-star" style="margin-right: 3px; color: #f6c832;"></i> 80+</b> neighborhoods registered pre-release.</li>
-								<li><b style="color: rgb(117, 24, 24)">13785+</b> lines of code written across frontend, backend, and middleware (according to VSCode).</li>
+								<li><b style="color: rgb(117, 24, 24)"><i class="fa-solid fa-star" style="margin-right: 3px; color: #f6c832;"></i> 40+</b> neighborhoods registered pre-release.</li>
+								<li><b style="color: rgb(117, 24, 24)">20k+</b> lines of code written across frontend, backend, and middleware (according to VSCode).</li>
 								<li><b style="color: rgb(117, 24, 24)">100+</b> components and pages created across frontend web app.</li>
 							</ul>
 						</div>
@@ -306,7 +341,7 @@ import researchPic from '../assets/math-research-cover.png'
 				<div class="portfolio-project">
 					<div class="project-text">
 						<div class="project-title">
-							BNT & BNT Foundation Website
+							BNT Foundation Website
 						</div>
 						<div class="project-subtitle" style="border-bottom: 1px solid rgb(116, 113, 113); padding-bottom: 12px;">
 							<span>
@@ -338,7 +373,50 @@ import researchPic from '../assets/math-research-cover.png'
 				</div>
 			</div>
 		</div>
+<!-- 		
+		<div class="portfolio" id="writing">
+			<div class="portfolio-title">
+				<div>
+					My Creative Portfolio
+				</div>
+				<div class="fancy-underline">
+				</div>
+			</div>
+			<div class="project-portfolio-container">
+				<div class="creative-row">
+					<div class="creative-item" style="position: relative">
+						<img src={smokeAppPic.src} class="creative-item-image" style="position: absolute"/>
+						<div class="creative-description-container">
+							<div class="creative-item-title">f</div>
+							<div class="creative-item-subtitle">f</div>
+						</div>
+					</div>
+					<div class="creative-item" style="background: #01A8B4;">
+						<div class="creative-description-container">
+							<div class="creative-item-title">Environmental Greenwashing</div>
+							<div class="creative-item-subtitle">f</div>
+						</div>	
+					</div>
+					<div class="creative-item" style="background: #CC5500">
+						<div class="creative-description-container">
+							<div class="creative-item-title">f</div>
+							<div class="creative-item-subtitle">f</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
+		{
+			showCreative &&
+			<div class="creative-open-pane">
+				<div class="creative-piece">
+					<div onclick="hideCreative">X</div>
+
+				</div>
+			</div>
+		}
+		
 
 		<div class="footer">
 			<div class="footer-item">
@@ -347,7 +425,7 @@ import researchPic from '../assets/math-research-cover.png'
 			<div class="footer-item">
 				<a href="mailto: xualex008@gmail.com">Contact</a>
 			</div>
-		</div>
+		</div> -->
 	</main>
 </div>
 
@@ -534,6 +612,25 @@ import researchPic from '../assets/math-research-cover.png'
 		justify-content: center;
 		width: 80%;
 	}
+
+
+	.cs-title {
+		font-size: 22px;
+		font-weight: 600;
+		font-family: 'Inter';
+		margin-top: 20px;
+		margin-bottom: 12px;
+		padding-bottom: 4px;
+		border-bottom: 1px solid gray;
+		width: 90%;
+	}
+
+	.cs-container {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 12px;
+		width: 80%;
+	}
 	
 	.interest {
 		border: solid;
@@ -706,6 +803,71 @@ import researchPic from '../assets/math-research-cover.png'
 		font-family: "Inter";
 		color: rgb(197, 193, 255);
 		font-weight: 600;
+	}
+
+	.creative-row {
+		display: flex;
+		width: 100%;
+		height: 300px;
+		gap: 20px;
+	}
+	
+	.creative-item {
+		width: 100%;
+		border-radius: 25px;
+		overflow: hidden;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.creative-item-image {
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		object-fit: cover;
+	}
+
+
+	.creative-description-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 5px;
+	}
+	.creative-item-title {
+		color: white;
+		z-index: 999;
+		font-size: 24px;
+		font-weight: 500;
+	}
+
+	.creative-item-subtitle {
+		font-weight: 300;
+		color: white;
+	}
+
+	.creative-open-pane {
+		position: fixed;
+		width: 100%;
+		background: rgba(0, 0, 0, 0.8);
+		z-index: 9999;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		top: 0;
+		left: 0;
+	}
+
+	.creative-piece {
+		background: white;
+		padding: 25px;
+		border-radius: 20px;
+		width: 60%;
+		height: 80%;
+		
 	}
 
 	@media screen and (max-width: 1050px) {
