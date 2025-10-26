@@ -430,6 +430,7 @@ main {
 .creative-item-subtitle {
     font-weight: 300;
     color: white;
+    text-align: center;
 }
 
 .creative-open-pane {
@@ -541,5 +542,13 @@ main {
         color: rgb(24, 24, 24);
         font-size: 16px;
         margin-bottom: 19.2px;
+    }
+    .creative-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px 300px;
+        row-gap: 20px;
+        column-gap: 20px;
+        width: 100%;
     }
 }
