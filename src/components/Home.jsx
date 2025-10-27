@@ -479,7 +479,7 @@ function Home() {
 							</div>
 							<div className="project-subtitle" style={{borderBottom: '1px solid rgb(116, 113, 113)', paddingBottom: '12px'}}>
 								<span>
-									<i className="fa-brands fa-figma" style={{color: '#060021', fontWeight: '500'}}></i>
+									<i className="fa-regular fa-hand-pointer" style={{color: '#060021', fontWeight: '500'}}></i>
 								</span>
 								Visit BTPHub Pilot: 
 								<a href="https://qa.btphub.com/" target="_blank"><b>Enter Website</b></a>
