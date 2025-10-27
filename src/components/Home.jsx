@@ -12,6 +12,7 @@ import rodeoHorse from '../assets/rodeo-horse.jpg'
 import deepInThought from '../assets/deep-in-thought.jpg'
 import Cady from '../assets/cady_3.jpg'
 import React from 'react';
+import DOMPurify from 'dompurify'
 import './home.css'
 
 
@@ -588,7 +589,7 @@ function Home() {
 								currType == 'art' ? 
 								<img src={currContent} className="source-image"/>
 								:
-								<div dangerouslySetInnerHTML={{__html: currContent}} className="source-text">
+								<div dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(currContent)}} className="source-text">
 								</div>
 							}
 
