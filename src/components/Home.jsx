@@ -1,6 +1,7 @@
 import background from '../assets/background.svg';
 import alexProfessionalPic from '../assets/alexxu_profile.jpeg'
 import alexMitPic from '../assets/alexxu-mit-profile.jpg'
+import personalCover from '../assets/personal-cover.png'
 import smokeAppPic from '../assets/smoke-app-cover.png'
 import btpHubLogo from '../assets/BTPHub_Logo.svg'
 import btpHubPic from '../assets/btphub-cover-photo.png'
@@ -316,7 +317,7 @@ function Home() {
 			<div className="about" id="about">
 				<div className="about-container">
 					<div className="about-side-1">
-						<img src={alexMitPic.src} alt="" className="about-pic" />
+						<img src={personalCover.src} alt="" className="about-pic" />
 					</div>
 					<div className="about-side-2">
 						<div className="about-title">
