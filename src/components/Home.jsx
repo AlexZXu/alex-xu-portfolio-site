@@ -67,6 +67,64 @@ function Home() {
 
 		},
 		{
+			type: 'art',
+			title: 'Deep in Thought',
+			src: deepInThought.src
+		},
+		{
+			type: 'writing',
+			title: 'April 29, 1992: Not For Us',
+			subtitle: 'A Short Story',
+			text: `<p><strong>April 29, 1992: Not For Us</strong></p>
+<p><span style="font-weight: 400;">I sat at the counter, listening to the noises outside. Los Angeles played its regular symphony, the ever present sounds of zipping cars, distant police sirens, and air conditioning units. Earlier in the morning I had restocked all the shelves and put new drinks in the vending machines, but we weren&rsquo;t getting many customers today. I watched the lucky cat on my desk endlessly wave at the unopening glass door, the pendulum arm that went up and down.&nbsp;</span></p>
+<p><span style="font-weight: 400;">My husband and I opened the shop in 1981. When we initially found this plot of land in the middle of the emerging Koreatown, it felt like fate had led us here. We were both born in Korea, though my family moved to America when I was 5. I always said that we were a perfect match. Besides everything we had gone through together, we both wanted this store. We had our overlapping reasons. For me, it was freedom and being able to care for children. For him, it was the family and having his own job.&nbsp;</span></p>
+<p><span style="font-weight: 400;">In the midst of my reminiscing, I heard footsteps walking out of the store&rsquo;s back room, and my husband appeared. Looking at his lean figure, you could tell that he&rsquo;d been shaped by years of hard work carrying boxes of goods, organizing the back room, and managing the business. Usually, he was always smiling, no doubt proud of his work and our store. Except now, the smile was missing. I looked at his face, and his concerned look worried me.&nbsp;</span></p>
+<p><span style="font-weight: 400;">&ldquo;Hey babe, turn on the TV&rdquo;, he told me. We had a small television in the corner of the counter, which I flicked on.&nbsp;</span></p>
+<p><span style="font-weight: 400;">The television whirred for a bit before images started appearing. We were tuned to Los Angeles&rsquo;s ABC channel. We first saw what we always expected from the news: some anchor talking about some random situation going on in the city. Except the news then cut to a video from a news helicopter, and we saw scenes from above of crowds of people pushing through streets and clashing with police. The video zoomed out a bit, and flames became visible. There were burning tires on the street. Some of the buildings seemed severely damaged.</span></p>
+<p><span style="font-weight: 400;">I looked over at my husband and asked, &ldquo;what&rsquo;s happening?&rdquo; &ldquo;Something terrible must have happened, something that angered the public&rdquo;, he responded.&nbsp;</span></p>
+<p><span style="font-weight: 400;">The news then flipped to a new video, one that didn&rsquo;t seem live. In it there were six people in police uniform, a white vehicle in the backdrop, and a man laying on the ground. They were beating the man on the ground. I watched horrified as one officer swung his baton into the man&rsquo;s leg. Another near his neck. Each swing slowed down time, and the swings kept on coming. It felt like the assault was never ending, another swing of the officer&rsquo;s baton coming after the last, like the cat on my desk. Other officers just circled the man, like vultures do around their prey.&nbsp;</span></p>
+<p><span style="font-weight: 400;">The news described how all the officers in the video were acquitted, the cause of the scenes we saw. Still, the riots that were occurring felt like a thousand miles away. Still, I wanted to feel safe.&nbsp;</span></p>
+<p><span style="font-weight: 400;">After more helicopter scenes of the rioting, the news anchor returned, and a map was shown. I heard choppy segments of what was being said, &ldquo;</span><em><span style="font-weight: 400;">rioting</span></em><span style="font-weight: 400;"> impacting Watts and Crenshaw&hellip;&rdquo;, &ldquo;quickly moving up north&rdquo;, &ldquo;will move into </span><em><span style="font-weight: 400;">Koreatown </span></em><span style="font-weight: 400;">and Bever&hellip;&rdquo; I looked at my husband, and I didn&rsquo;t hide my fear. He looked wide eyed too. &ldquo;What do we do?&rdquo; I asked. At that moment, the phone rang.&nbsp;</span></p>
+<p><span style="font-weight: 400;">My husband picked up the phone, and I watched as he listened to whoever was on the other side and nodded his head. Eventually, he slammed the phone back down, scaring me. &ldquo;Our neighbors just called. The police have blocked off all the northbound roads into the rich neighborhoods. Babe, they&rsquo;ve blocked us in here.&rdquo;</span></p>
+<p><span style="font-weight: 400;">Koreatown was supposed to be our bubble, where we were &ldquo;protected&rdquo;. On that day, when it was quiet in the store and my husband and I were watching the news together, that bubble burst.&nbsp;</span></p>
+<p><span style="font-weight: 400;">I turned off the TV, staring at my husband. I don&rsquo;t know if it was just my imagination, but the sirens outside &ndash; which usually fade into the background &ndash; suddenly seemed louder. I stood up, grabbed the keys that sat on the desk, and locked the store&rsquo;s glass door. In swift motion I clicked off the OPEN sign and turned some lights off. The store </span><em><span style="font-weight: 400;">was </span></em><span style="font-weight: 400;">our home. While the first floor was our life support, the actual store, the second was our livelihood, where we lived and slept and so did </span><em><span style="font-weight: 400;">the kids</span></em><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">&ldquo;I&rsquo;m going to make sure the kids are asleep,&rdquo; I announced loudly. I sped into the backroom and up a flight of stairs that led to the second floor. I peered into the twins&rsquo; bedroom. They were both asleep for now. I came back down to the first floor in the back room. I saw my husband rummaging through some boxes until he pulled out a container I&rsquo;d never seen before.</span></p>
+<p><span style="font-weight: 400;">I walked by him and watched the world from the storefront. The sun was setting and smoke lingered in the air. We had only a bit of wood that barely boarded up a single window. Somewhere close, rioters were setting things on fire and destroying businesses. I thought of the kids. They could be hurt, if not physically, then in a harsher life without the store. And through it all, where were the police? No sirens blared. It was quiet. If our neighbors were correct earlier, then the police were gone defending the rich neighborhoods, leaving us to fend for ourselves.</span></p>
+<p><span style="font-weight: 400;">My husband emerged from the back again, holding something wrapped in a worn, faded towel. He didn&rsquo;t speak as he set it on the counter and gently unwrapped it. I watched, silent, as the object took shape: a rifle. Not flashy, not new. It was old, but well cared for. He inspected it with steady hands, checked the magazine, then laid it down carefully.</span></p>
+<p><span style="font-weight: 400;">&ldquo;You had that this whole time?&rdquo; I asked.</span></p>
+<p><span style="font-weight: 400;">He nodded. &ldquo;I bought it when we first opened the shop,&rdquo; he said. &ldquo;Just in case. I prayed I&rsquo;d never need it.&rdquo;</span></p>
+<p><span style="font-weight: 400;">There was no heat or pride in his voice. Just the weight of a man who had always known, deep down, that when the world stopped paying attention, he might have to be enough.</span></p>
+<p><span style="font-weight: 400;">I looked at the rifle, then back at him. &ldquo;You&rsquo;re not going to use it?&rdquo;</span></p>
+<p><span style="font-weight: 400;">&ldquo;Only if someone tries to hurt you. Or the kids,&rdquo; he said, eyes meeting mine. &ldquo;But no. I don&rsquo;t want to ever need it. I just want them to know we&rsquo;re here. That we&rsquo;re not invisible.&rdquo;</span></p>
+<p><span style="font-weight: 400;">He packed a small duffel with the essentials: flashlight, batteries, the radio, a bottle of water. The rifle was slung over his shoulder, but it hung there more like a warning than a weapon. A reluctant symbol of a choice he never wanted to make.</span></p>
+<p><span style="font-weight: 400;">Then he looked at me. Not with fear. Not even with anger. But with something quiet, solid.</span></p>
+<p><span style="font-weight: 400;">&ldquo;I&rsquo;m going to the roof. The others are already up.&rdquo;</span></p>
+<p><span style="font-weight: 400;">I didn&rsquo;t say anything at first. Just followed him through the back hallway, past the dim lightbulb swaying from the ceiling, and up the narrow staircase. I stopped at the doorway leading to the roof, watching as he stepped out into the night. There were a few others already on the surrounding rooftops. I recognized Mr. Choi from the corner market, a man who had often picked up our kids from school when we were too busy with the store. He gave my husband a nod, then looked away. No words were needed.</span></p>
+<p><span style="font-weight: 400;">I stepped outside too, arms crossed, as a soft wind blew over the rooftops. My husband set down his things, unrolled an old mat to sit on, and positioned a flashlight beside him. The rifle was placed carefully at his side, untouched. He scanned the street with quiet eyes.</span></p>
+<p><span style="font-weight: 400;">Below, the city cracked, a gradual chaos unraveling. A scream rose in the distance. We heard a crunch of glass. Fires burned two blocks away.&nbsp; A car alarm started wailing and didn&rsquo;t stop. But there were no sirens.&nbsp;</span></p>
+<p><span style="font-weight: 400;">The police weren&rsquo;t coming. Not for us.</span></p>
+<p><span style="font-weight: 400;">Not for the store owners. Not for the families tucked above shops. Not for the children sleeping upstairs. Not for the immigrants who scraped their lives together brick by brick. We had been left out of the circle of concern, like someone had drawn a line around the neighborhoods that mattered, and we weren&rsquo;t inside it.</span></p>
+<p><span style="font-weight: 400;">&ldquo;They&rsquo;re not coming, are they?&rdquo; I asked, voice barely above a whisper.</span></p>
+<p><span style="font-weight: 400;">He shook his head. &ldquo;They&rsquo;re guarding Beverly Hills. Westwood. Downtown. Not here.&rdquo;</span></p>
+<p><span style="font-weight: 400;">I felt something sink deep in my stomach. A slow, cold realization. The kind that doesn&rsquo;t shock, but confirms what you&rsquo;ve tried not to believe.</span></p>
+<p><span style="font-weight: 400;">And yet, through it all, he stayed. My husband. The quiet man who never raised his voice, who always worked late without complaint, who gave the delivery drivers free soda in summer. Sitting there with a rifle he didn&rsquo;t want to use, watching over the store he built with his hands, over the family we made together.</span></p>
+<p><span style="font-weight: 400;">I sat beside him. &ldquo;We&rsquo;ll stay awake together,&rdquo; I said. &ldquo;Until morning.&rdquo;</span></p>
+<p><span style="font-weight: 400;">He nodded, eyes still on the street.</span></p>
+<p><span style="font-weight: 400;">That night passed like smoke, thick, slow, choking. From time to time we heard things: running, shouting, breaking. But no one came for us. Maybe it was luck. Maybe it was because they saw the shadows on the rooftops and thought twice.</span></p>
+<p><span style="font-weight: 400;">But deep down, I knew: it wasn&rsquo;t because we were protected.</span></p>
+<p><span style="font-weight: 400;">It was because we protected ourselves.</span></p>
+<p><span style="font-weight: 400;">As the first light broke the horizon, revealing the hazy, soot-stained skyline of Koreatown, I looked over at my husband again. The rifle still lay untouched beside him. His back was straight. His eyes, tired but unflinching.</span></p>
+<p><span style="font-weight: 400;">And in that silence between us, I saw him clearer than ever.</span></p>
+<p><span style="font-weight: 400;">Someone left to fill the space where protection should&rsquo;ve been.</span></p>
+<p><span style="font-weight: 400;">And for that, I loved him more than I ever had before.</span></p>`,
+			background: '#CC5500'
+		},
+		{
+			type: 'art',
+			title: 'Rodeo Horse',
+			src: rodeoHorse.src
+		},
+		{
 			type: 'writing',
 			title: 'Fulton County Schools Resolution Proposal',
 			subtitle: 'Reviewed & Discussed with District',
@@ -139,64 +197,6 @@ function Home() {
 <p><span style="font-weight: 400;">AYES:&nbsp;</span></p>
 <p><span style="font-weight: 400;">NOES:</span></p>`,
 			background: '#CC5500'
-		},
-		{
-			type: 'writing',
-			title: 'April 29, 1992: Not For Us',
-			subtitle: 'A Short Story',
-			text: `<p><strong>April 29, 1992: Not For Us</strong></p>
-<p><span style="font-weight: 400;">I sat at the counter, listening to the noises outside. Los Angeles played its regular symphony, the ever present sounds of zipping cars, distant police sirens, and air conditioning units. Earlier in the morning I had restocked all the shelves and put new drinks in the vending machines, but we weren&rsquo;t getting many customers today. I watched the lucky cat on my desk endlessly wave at the unopening glass door, the pendulum arm that went up and down.&nbsp;</span></p>
-<p><span style="font-weight: 400;">My husband and I opened the shop in 1981. When we initially found this plot of land in the middle of the emerging Koreatown, it felt like fate had led us here. We were both born in Korea, though my family moved to America when I was 5. I always said that we were a perfect match. Besides everything we had gone through together, we both wanted this store. We had our overlapping reasons. For me, it was freedom and being able to care for children. For him, it was the family and having his own job.&nbsp;</span></p>
-<p><span style="font-weight: 400;">In the midst of my reminiscing, I heard footsteps walking out of the store&rsquo;s back room, and my husband appeared. Looking at his lean figure, you could tell that he&rsquo;d been shaped by years of hard work carrying boxes of goods, organizing the back room, and managing the business. Usually, he was always smiling, no doubt proud of his work and our store. Except now, the smile was missing. I looked at his face, and his concerned look worried me.&nbsp;</span></p>
-<p><span style="font-weight: 400;">&ldquo;Hey babe, turn on the TV&rdquo;, he told me. We had a small television in the corner of the counter, which I flicked on.&nbsp;</span></p>
-<p><span style="font-weight: 400;">The television whirred for a bit before images started appearing. We were tuned to Los Angeles&rsquo;s ABC channel. We first saw what we always expected from the news: some anchor talking about some random situation going on in the city. Except the news then cut to a video from a news helicopter, and we saw scenes from above of crowds of people pushing through streets and clashing with police. The video zoomed out a bit, and flames became visible. There were burning tires on the street. Some of the buildings seemed severely damaged.</span></p>
-<p><span style="font-weight: 400;">I looked over at my husband and asked, &ldquo;what&rsquo;s happening?&rdquo; &ldquo;Something terrible must have happened, something that angered the public&rdquo;, he responded.&nbsp;</span></p>
-<p><span style="font-weight: 400;">The news then flipped to a new video, one that didn&rsquo;t seem live. In it there were six people in police uniform, a white vehicle in the backdrop, and a man laying on the ground. They were beating the man on the ground. I watched horrified as one officer swung his baton into the man&rsquo;s leg. Another near his neck. Each swing slowed down time, and the swings kept on coming. It felt like the assault was never ending, another swing of the officer&rsquo;s baton coming after the last, like the cat on my desk. Other officers just circled the man, like vultures do around their prey.&nbsp;</span></p>
-<p><span style="font-weight: 400;">The news described how all the officers in the video were acquitted, the cause of the scenes we saw. Still, the riots that were occurring felt like a thousand miles away. Still, I wanted to feel safe.&nbsp;</span></p>
-<p><span style="font-weight: 400;">After more helicopter scenes of the rioting, the news anchor returned, and a map was shown. I heard choppy segments of what was being said, &ldquo;</span><em><span style="font-weight: 400;">rioting</span></em><span style="font-weight: 400;"> impacting Watts and Crenshaw&hellip;&rdquo;, &ldquo;quickly moving up north&rdquo;, &ldquo;will move into </span><em><span style="font-weight: 400;">Koreatown </span></em><span style="font-weight: 400;">and Bever&hellip;&rdquo; I looked at my husband, and I didn&rsquo;t hide my fear. He looked wide eyed too. &ldquo;What do we do?&rdquo; I asked. At that moment, the phone rang.&nbsp;</span></p>
-<p><span style="font-weight: 400;">My husband picked up the phone, and I watched as he listened to whoever was on the other side and nodded his head. Eventually, he slammed the phone back down, scaring me. &ldquo;Our neighbors just called. The police have blocked off all the northbound roads into the rich neighborhoods. Babe, they&rsquo;ve blocked us in here.&rdquo;</span></p>
-<p><span style="font-weight: 400;">Koreatown was supposed to be our bubble, where we were &ldquo;protected&rdquo;. On that day, when it was quiet in the store and my husband and I were watching the news together, that bubble burst.&nbsp;</span></p>
-<p><span style="font-weight: 400;">I turned off the TV, staring at my husband. I don&rsquo;t know if it was just my imagination, but the sirens outside &ndash; which usually fade into the background &ndash; suddenly seemed louder. I stood up, grabbed the keys that sat on the desk, and locked the store&rsquo;s glass door. In swift motion I clicked off the OPEN sign and turned some lights off. The store </span><em><span style="font-weight: 400;">was </span></em><span style="font-weight: 400;">our home. While the first floor was our life support, the actual store, the second was our livelihood, where we lived and slept and so did </span><em><span style="font-weight: 400;">the kids</span></em><span style="font-weight: 400;">.</span></p>
-<p><span style="font-weight: 400;">&ldquo;I&rsquo;m going to make sure the kids are asleep,&rdquo; I announced loudly. I sped into the backroom and up a flight of stairs that led to the second floor. I peered into the twins&rsquo; bedroom. They were both asleep for now. I came back down to the first floor in the back room. I saw my husband rummaging through some boxes until he pulled out a container I&rsquo;d never seen before.</span></p>
-<p><span style="font-weight: 400;">I walked by him and watched the world from the storefront. The sun was setting and smoke lingered in the air. We had only a bit of wood that barely boarded up a single window. Somewhere close, rioters were setting things on fire and destroying businesses. I thought of the kids. They could be hurt, if not physically, then in a harsher life without the store. And through it all, where were the police? No sirens blared. It was quiet. If our neighbors were correct earlier, then the police were gone defending the rich neighborhoods, leaving us to fend for ourselves.</span></p>
-<p><span style="font-weight: 400;">My husband emerged from the back again, holding something wrapped in a worn, faded towel. He didn&rsquo;t speak as he set it on the counter and gently unwrapped it. I watched, silent, as the object took shape: a rifle. Not flashy, not new. It was old, but well cared for. He inspected it with steady hands, checked the magazine, then laid it down carefully.</span></p>
-<p><span style="font-weight: 400;">&ldquo;You had that this whole time?&rdquo; I asked.</span></p>
-<p><span style="font-weight: 400;">He nodded. &ldquo;I bought it when we first opened the shop,&rdquo; he said. &ldquo;Just in case. I prayed I&rsquo;d never need it.&rdquo;</span></p>
-<p><span style="font-weight: 400;">There was no heat or pride in his voice. Just the weight of a man who had always known, deep down, that when the world stopped paying attention, he might have to be enough.</span></p>
-<p><span style="font-weight: 400;">I looked at the rifle, then back at him. &ldquo;You&rsquo;re not going to use it?&rdquo;</span></p>
-<p><span style="font-weight: 400;">&ldquo;Only if someone tries to hurt you. Or the kids,&rdquo; he said, eyes meeting mine. &ldquo;But no. I don&rsquo;t want to ever need it. I just want them to know we&rsquo;re here. That we&rsquo;re not invisible.&rdquo;</span></p>
-<p><span style="font-weight: 400;">He packed a small duffel with the essentials: flashlight, batteries, the radio, a bottle of water. The rifle was slung over his shoulder, but it hung there more like a warning than a weapon. A reluctant symbol of a choice he never wanted to make.</span></p>
-<p><span style="font-weight: 400;">Then he looked at me. Not with fear. Not even with anger. But with something quiet, solid.</span></p>
-<p><span style="font-weight: 400;">&ldquo;I&rsquo;m going to the roof. The others are already up.&rdquo;</span></p>
-<p><span style="font-weight: 400;">I didn&rsquo;t say anything at first. Just followed him through the back hallway, past the dim lightbulb swaying from the ceiling, and up the narrow staircase. I stopped at the doorway leading to the roof, watching as he stepped out into the night. There were a few others already on the surrounding rooftops. I recognized Mr. Choi from the corner market, a man who had often picked up our kids from school when we were too busy with the store. He gave my husband a nod, then looked away. No words were needed.</span></p>
-<p><span style="font-weight: 400;">I stepped outside too, arms crossed, as a soft wind blew over the rooftops. My husband set down his things, unrolled an old mat to sit on, and positioned a flashlight beside him. The rifle was placed carefully at his side, untouched. He scanned the street with quiet eyes.</span></p>
-<p><span style="font-weight: 400;">Below, the city cracked, a gradual chaos unraveling. A scream rose in the distance. We heard a crunch of glass. Fires burned two blocks away.&nbsp; A car alarm started wailing and didn&rsquo;t stop. But there were no sirens.&nbsp;</span></p>
-<p><span style="font-weight: 400;">The police weren&rsquo;t coming. Not for us.</span></p>
-<p><span style="font-weight: 400;">Not for the store owners. Not for the families tucked above shops. Not for the children sleeping upstairs. Not for the immigrants who scraped their lives together brick by brick. We had been left out of the circle of concern, like someone had drawn a line around the neighborhoods that mattered, and we weren&rsquo;t inside it.</span></p>
-<p><span style="font-weight: 400;">&ldquo;They&rsquo;re not coming, are they?&rdquo; I asked, voice barely above a whisper.</span></p>
-<p><span style="font-weight: 400;">He shook his head. &ldquo;They&rsquo;re guarding Beverly Hills. Westwood. Downtown. Not here.&rdquo;</span></p>
-<p><span style="font-weight: 400;">I felt something sink deep in my stomach. A slow, cold realization. The kind that doesn&rsquo;t shock, but confirms what you&rsquo;ve tried not to believe.</span></p>
-<p><span style="font-weight: 400;">And yet, through it all, he stayed. My husband. The quiet man who never raised his voice, who always worked late without complaint, who gave the delivery drivers free soda in summer. Sitting there with a rifle he didn&rsquo;t want to use, watching over the store he built with his hands, over the family we made together.</span></p>
-<p><span style="font-weight: 400;">I sat beside him. &ldquo;We&rsquo;ll stay awake together,&rdquo; I said. &ldquo;Until morning.&rdquo;</span></p>
-<p><span style="font-weight: 400;">He nodded, eyes still on the street.</span></p>
-<p><span style="font-weight: 400;">That night passed like smoke, thick, slow, choking. From time to time we heard things: running, shouting, breaking. But no one came for us. Maybe it was luck. Maybe it was because they saw the shadows on the rooftops and thought twice.</span></p>
-<p><span style="font-weight: 400;">But deep down, I knew: it wasn&rsquo;t because we were protected.</span></p>
-<p><span style="font-weight: 400;">It was because we protected ourselves.</span></p>
-<p><span style="font-weight: 400;">As the first light broke the horizon, revealing the hazy, soot-stained skyline of Koreatown, I looked over at my husband again. The rifle still lay untouched beside him. His back was straight. His eyes, tired but unflinching.</span></p>
-<p><span style="font-weight: 400;">And in that silence between us, I saw him clearer than ever.</span></p>
-<p><span style="font-weight: 400;">Someone left to fill the space where protection should&rsquo;ve been.</span></p>
-<p><span style="font-weight: 400;">And for that, I loved him more than I ever had before.</span></p>`,
-			background: '#CC5500'
-		},
-		{
-			type: 'art',
-			title: 'Rodeo Horse',
-			src: rodeoHorse.src
-		},
-		{
-			type: 'art',
-			title: 'Deep in Thought',
-			src: deepInThought.src
 		}
 	])
 	
