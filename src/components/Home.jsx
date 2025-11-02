@@ -218,7 +218,7 @@ function Home() {
 				<a href="#" className="nav-link">Home</a>
 				<a href="#about" className="nav-link">About Me</a>
 				<a href="#portfolio" className="nav-link">Project Portfolio</a>
-				<a href="#creative" className="nav-link">Creative Portfolio</a>
+				<a href="#creative" className="nav-link">Creative Pieces</a>
 			</div>
 			<span style={{color: 'white'}} id="menuButton">
 				<i className="fa-solid fa-bars fa-xl"></i>
@@ -228,6 +228,7 @@ function Home() {
 				<a href="#" className="nav-link">Home</a>
 				<a href="#about" className="nav-link">About Me</a>
 				<a href="#portfolio" className="nav-link">Project Portfolio</a>
+				<a href="#creative" className="nav-link">Creative Pieces</a>
 			</div>
 
 			
@@ -554,7 +555,7 @@ function Home() {
 			<div className="portfolio" id="creative">
 				<div className="portfolio-title">
 					<div>
-						My Creative Portfolio
+						My Creative Pieces
 					</div>
 					<div className="fancy-underline">
 					</div>
