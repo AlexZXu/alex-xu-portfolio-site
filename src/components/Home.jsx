@@ -33,7 +33,7 @@ function Home() {
 	const [pieces, setPieces] = React.useState([
 		{
 			type: 'art',
-			title: 'Worn Out',
+			title: 'Carrying My Steps',
 			src: wornOut.src
 		},
 		{
